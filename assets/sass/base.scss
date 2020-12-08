@@ -1,0 +1,33 @@
+// general customzations comes below
+a {
+  text-decoration: none;
+}
+
+.form-control:focus {
+  box-shadow: unset;
+}
+
+.site-footer {
+  // height: 250px;
+
+  .first-child {
+    a {
+      // padding-top: 0px;
+      // padding-bottom: 0px;
+      color: rgb(175, 174, 174);
+      // border-right: 1px solid rgb(175, 174, 174);
+    }
+    li:last-child a {
+      border-right: unset;
+    }
+    a:hover {
+      color: rgb(255, 255, 255);
+    }
+  }
+  .form-control {
+    background-color: rgb(231, 231, 231);
+  }
+  .form-control:focus {
+    background-color: white;
+  }
+}
