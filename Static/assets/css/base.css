@@ -1,0 +1,8 @@
+a {
+  text-decoration: none;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}

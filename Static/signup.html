@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Faveicon goes here -->
+    <link rel="shortcut icon" href="assets/imgs/fav.svg" type="image/x-icon" />
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/vendor/bootstrap-5.0.0-beta1-dist/bootstrap.css" rel="stylesheet" />
+
+    <!-- Site Site Styles -->
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/signin.css" />
+
+    <title>BookTower | Sign up</title>
+  </head>
+  <body class="d-flex text-center">
+    <main class="signin-form-container w-100 p-2 m-auto">
+      <form action="">
+        <!-- The logo and titles comes below -->
+        <div class="mb-3">
+          <a href="#">
+            <img src="assets/imgs/fav.svg" alt="logo" width="70px" height="70px" />
+          </a>
+        </div>
+        <!-- Logo has ended -->
+
+        <!-- Signin pgae title gets strated -->
+        <div class="mb-4">
+          <h1 class="h3">Sign up</h1>
+          <p>Please fill the fields below.</p>
+        </div>
+        <!-- Titles ended -->
+
+        <!-- Input first and last name -->
+        <div class="input-group mb-2">
+          <span class="input-group-text">
+            <img src="assets/vendor/bootstrap-icons-1.1.0/person-lines-fill.svg" alt="" />
+          </span>
+          <input type="text" class="form-control" placeholder="First Name" required />
+          <input type="text" class="form-control" placeholder="Last Name" required />
+        </div>
+
+        <!-- input email -->
+        <div class="input-group mb-2">
+          <span class="input-group-text">
+            <img src="assets/vendor/bootstrap-icons-1.1.0/person-fill.svg" alt="" />
+          </span>
+          <input type="email" class="form-control" placeholder="Email" required />
+        </div>
+
+        <!-- Input password -->
+        <div class="input-group mb-2">
+          <span class="input-group-text">
+            <img src="assets/vendor/bootstrap-icons-1.1.0/lock-fill.svg" alt="" />
+          </span>
+          <input type="password" class="form-control" placeholder="Password" required />
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text">
+            <img src="assets/vendor/bootstrap-icons-1.1.0/lock-fill.svg" alt="" />
+          </span>
+          <input type="password" class="form-control" placeholder="Confirm Password" required />
+        </div>
+
+        <!-- Terms and conditions checkbox -->
+        <div class="form-check form-switch small mb-3">
+          <input class="form-check-input" type="checkbox" id="terms-conditions-checkbox" checked disabled />
+          <label for="terms-conditions-checkbox">
+              By signing up you agree upon <a href="#">terms & conditions of use</a>
+          </label>
+        </div>
+
+        <!-- Botton comes -->
+        <button type="submit" class="btn btn-success w-100 mb-3">Sign up</button>
+
+        <!-- Have an account q -->
+        <p class="text-muted m-0">Have an account? <a class="link-success" href="signin.html">Sign in</a></p>
+      </form>
+    </main>
+
+    <!-- Option 1: Bootstrap Bundle with Popper.js -->
+    <script src="/assets/vendor/bootstrap-5.0.0-beta1-dist/bootstrap.bundle.js"></script>
+  </body>
+</html>
